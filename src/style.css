@@ -7,6 +7,6 @@ div {
   padding-bottom: 0;
 }
 
-.last {
+div:last-child {
   margin-bottom: 0;
 }

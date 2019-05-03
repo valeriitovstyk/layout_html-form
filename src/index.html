@@ -23,11 +23,10 @@
       <label>Name: <input type="text" name="name" autocomplete="off" min="2" required></label>
     </div>
     <div>
-      <label>How old are You? <input type="number" value="12" placeholder="12" name="age" data-qa="field-value"></label>
+      <label>How old are You? <input type="number" value="12" name="age" data-qa="field-value"></label>
     </div>
     <div>
-      <label>Full date of birthday? <input type="date" placeholder="mm/dd/yyyy" name="birthday"
-                                           max="2001-01-01"></label>
+      <label>Full date of birthday? <input type="date" name="birthday" max="2001-01-01"></label>
     </div>
     <div class="last">
       <label>I accept the term of the agreement <input type="checkbox" name="agree" required></label>
@@ -51,6 +50,8 @@
     <div>
       <label>Do you love cats?
         <input type="radio" name="love_cats" value="yes">Yes
+      </label>
+      <label>
         <input type="radio" name="love_cats" value="no">No
       </label>
     </div>
@@ -81,7 +82,7 @@
         Comments: <textarea name="comments" maxlength="250"></textarea>
       </label>
     </div>
-    <div class="last">
+    <div>
       <label>
         Would you recommend us?
         <select name="recommend" required>
